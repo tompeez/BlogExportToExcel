@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE JboProject SYSTEM "jbo_03_01.dtd">
+<!---->
+<JboProject
+  xmlns="http://xmlns.oracle.com/bc4j"
+  Name="BETEModel"
+  Version="12.1.3.10.8"
+  SeparateXMLFiles="true"
+  PackageName="de.hahn.blog.exporttoexcel.model">
+  <DesignTime>
+    <Attr Name="_jprName" Value="../../../../../../BETEModel.jpr"/>
+    <Attr Name="_jbo.TypeMapEntries" Value="OracleApps"/>
+    <Attr Name="_NamedConnection" Value="HRConn"/>
+    <Attr Name="_appModuleNames0" Value="de.hahn.blog.exporttoexcel.model.adfbc.service.BETEAppModule"/>
+  </DesignTime>
+  <Containee
+    Name="entities"
+    PackageName="de.hahn.blog.exporttoexcel.model.adfbc.entities"
+    ObjectType="JboPackage">
+    <DesignTime>
+      <Attr Name="_EO" Value="true"/>
+    </DesignTime>
+  </Containee>
+  <Containee
+    Name="service"
+    PackageName="de.hahn.blog.exporttoexcel.model.adfbc.service"
+    ObjectType="JboPackage">
+    <DesignTime>
+      <Attr Name="_AM" Value="true"/>
+    </DesignTime>
+  </Containee>
+  <Containee
+    Name="views"
+    PackageName="de.hahn.blog.exporttoexcel.model.adfbc.views"
+    ObjectType="JboPackage">
+    <DesignTime>
+      <Attr Name="_VO" Value="true"/>
+    </DesignTime>
+  </Containee>
+</JboProject>
